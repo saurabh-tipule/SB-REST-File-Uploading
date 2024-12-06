@@ -10,6 +10,10 @@ import lombok.Data;
 @Data
 public class Document {
 
+	int a = 10;
+
+	String s = "XYZ";
+
 	@Id
 	private String documentId;
 
